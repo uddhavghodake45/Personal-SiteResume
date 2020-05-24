@@ -1,0 +1,97 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+a.color-me {
+	color: black;
+}
+
+/********************************my image css*******************************************/
+
+.bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+    box-shadow: 8px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  /*************************uddhav ghdaoke****************************/
+
+  .pulse {
+  	animation: pulse 2s infinite;
+  	box-shadow: 0 0 0 rgba(49,140,189, 0.9);
+  	cursor: pointer;
+  }
+
+  .pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(49,140,189, 0.9);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(49,140,189, 0.9);
+    box-shadow: 0 0 0 0 rgba(49,140,189, 0.9);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+
+
+  /*******************************nav bar first**********************************************/
+
+  .weight {
+  	font-weight: bold;
+  	font-size: 14px;
+  	color:black;
+  }
+
+  a:hover {
+	color:green;
+  }
+
+/************************************jumbotron card*********************************************/
+
+.cardv {
+	box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+}
+
+.colr {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+div.x {
+	padding-bottom: 15px;
+	color: green;
+}
+
+div.progress {
+	color:green;
+}
+
+div.cert {
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+
